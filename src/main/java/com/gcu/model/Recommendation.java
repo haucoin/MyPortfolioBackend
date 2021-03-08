@@ -25,6 +25,9 @@ public class Recommendation {
 	// position - String: The position of the author of the recommendation
 	private String position;
 	
+	// preview - String: The preview of the letter or content of the recommendation
+	private String preview;
+	
 	// letter - String: The letter or content of the recommendation
 	private String letter;
 	
@@ -45,6 +48,7 @@ public class Recommendation {
 		this._id = null;
 		this.name = "";
 		this.position = "";
+		this.preview = "";
 		this.letter = "";
 		this.image = "";
 		this.isShowing = false;
@@ -56,15 +60,17 @@ public class Recommendation {
 	 * Non-Default Constructor
 	 * @param name - String: The name of the author of the recommendation
 	 * @param position - String: The position of the author of the recommendation
+	 * @param preview - String: The preview of the letter or content of the recommendation
 	 * @param letter - String: The letter or content of the recommendation
 	 * @param image - String: The name of an image of the author of the recommendation
 	 * @param isShowing - boolean: A true or false if the recommendation is showing on the website
 	 * @param contact - List<String>: The contact information of the author of the recommendation
 	 */
-	public Recommendation(String name, String position, String letter, String image, boolean isShowing, HashMap<String, String> contact) {
+	public Recommendation(String name, String position, String preview, String letter, String image, boolean isShowing, HashMap<String, String> contact) {
 		this._id = null;
 		this.name = name;
 		this.position = position;
+		this.preview = preview;
 		this.letter = letter;
 		this.image = image;
 		this.isShowing = isShowing;
@@ -92,6 +98,12 @@ public class Recommendation {
 	}
 	public void setPosition(String position) {
 		this.position = position;
+	}
+	public String getPreview() {
+		return preview;
+	}
+	public void setPreview(String preview) {
+		this.preview = preview;
 	}
 	public String getLetter() {
 		return letter;

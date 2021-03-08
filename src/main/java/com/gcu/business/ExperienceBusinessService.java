@@ -34,12 +34,12 @@ public class ExperienceBusinessService {
 	}
 	
 	/**
-	 * Method findAllExperiencesByType makes a request to the DOA to grab all the experiences from the MongoDB database matching the given type
-	 * @param type - String: The type of experience
-	 * @return experiences - List<Experience>: List of all experiences matching the type
+	 * Method findAllExperiencesByCompany makes a request to the DOA to grab all the experiences from the MongoDB database matching the given company name
+	 * @param company - String: The company name of the experience
+	 * @return experiences - List<Experience>: List of all experiences matching the company name
 	 */
-	public List<Experience> findAllExperiencesByType(String type) {
-		List<Experience> experiences = service.getAllByType(type);
+	public List<Experience> findAllExperiencesByCompany(String company) {
+		List<Experience> experiences = service.getAllByCompany(company);
 		return experiences;
 	}
 	

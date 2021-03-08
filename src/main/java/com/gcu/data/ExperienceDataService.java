@@ -20,10 +20,10 @@ import com.gcu.model.Experience;
 public interface ExperienceDataService extends MongoRepository <Experience, String>{
 
 	/**
-	 * Method findAllByType is a custom query method for MongoDB in order to retrieve a list of a certain type of experiences
-	 * @param type - String: The type of experience
+	 * Method findAllByCompany is a custom query method for MongoDB in order to retrieve a list of experiences of a company
+	 * @param company - String: The company name of an experience
 	 * @return experiences - List<Experience>: List of experiences
 	 */
-	@Query("{'type': ?0}")
-	public List<Experience> getAllByType(String type);
+	@Query("{'company': ?0}")
+	public List<Experience> getAllByCompany(String company);
 }

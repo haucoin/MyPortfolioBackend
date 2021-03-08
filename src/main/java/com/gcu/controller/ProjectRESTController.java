@@ -39,13 +39,12 @@ public class ProjectRESTController {
 	}
 	
 	/**
-	 * Method getAllProjectsByType is a HTTP GET request that calls the findAllProjectsByType method in the business service
-	 * @param type - String: The type of project
+	 * Method getAllProjects is a HTTP GET request that calls the findAllProjects method in the business service
 	 * @return projects - List<Project>: A list of projects returned from method call
 	 */
-	@RequestMapping(value = "/all/{type}", method = RequestMethod.GET)
-	public List<Project> getAllProjectsByType(@PathVariable String type) {
-		List<Project> projects = service.findAllProjectsByType(type);
+	@RequestMapping(value = "/all", method = RequestMethod.GET)
+	public List<Project> getAllProjects() {
+		List<Project> projects = service.findAllProjects();
 		return projects;
 	}
 	

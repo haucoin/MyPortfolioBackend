@@ -34,12 +34,11 @@ public class ProjectBusinessService {
 	}
 	
 	/**
-	 * Method findAllProjectsByType makes a request to the DOA to grab all the projects from the MongoDB database matching the given type
-	 * @param type - String: The type of project
-	 * @return projects - List<Project>: List of all projects matching the type
+	 * Method findAllProjects makes a request to the DAO to grab all the projects from the MongoDB database
+	 * @return projects - List<Project>: List of all projects
 	 */
-	public List<Project> findAllProjectsByType(String type) {
-		List<Project> projects = service.getAllByType(type);
+	public List<Project> findAllProjects() {
+		List<Project> projects = service.findAll();
 		return projects;
 	}
 	

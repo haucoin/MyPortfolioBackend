@@ -23,14 +23,8 @@ public class Experience {
 	// description - String: The description of an experience
 	private String description;
 	
-	// type - String: The type of an experience (professional or volunteer)
-	private String type;
-	
 	// company - String: The company name of an experience
-	private String company;
-	
-	// department - String: The department within a company of an experience
-	private String department;
+	private String company;	
 	
 	// location - String: The location of an experience
 	private String location;
@@ -41,6 +35,9 @@ public class Experience {
 	// endDate - String: The end date of an experience (month year)
 	private String endDate;
 	
+	// image - String: The name of the image of the experience
+	private String image;
+	
 	
 	/**
 	 * Default Constructor
@@ -49,12 +46,11 @@ public class Experience {
 		this._id = null;
 		this.name = "";
 		this.description = "";
-		this.type = "";
 		this.company = "";
-		this.department = "";
 		this.location = "";
 		this.startDate = "";
 		this.endDate = "";
+		this.image = "";
 	}
 
 
@@ -62,23 +58,21 @@ public class Experience {
 	 * Non-Default Constructor
 	 * @param name - String: The name of an experience
 	 * @param description - String: The description of an experience
-	 * @param type - String: The type of an experience (professional or volunteer)
 	 * @param company - String: The company name of an experience
-	 * @param department - String: The department within a company of an experience
 	 * @param location - String: The location of an experience
 	 * @param startDate - String: The start date of an experience (month year)
 	 * @param endDate - String: The end date of an experience (month year)
+	 * @param image - String: The name of the image of the experience
 	 */
-	public Experience(String name, String description, String type, String company, String department, String location, String startDate, String endDate) {
+	public Experience(String name, String description, String company, String location, String startDate, String endDate, String image) {
 		this._id = null;
 		this.name = name;
 		this.description = description;
-		this.type = type;
 		this.company = company;
-		this.department = department;
 		this.location = location;
 		this.startDate = startDate;
 		this.endDate = endDate;
+		this.image = image;
 	}
 
 
@@ -103,23 +97,11 @@ public class Experience {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getType() {
-		return type;
-	}
-	public void setType(String type) {
-		this.type = type;
-	}
 	public String getCompany() {
 		return company;
 	}
 	public void setCompany(String company) {
 		this.company = company;
-	}
-	public String getDepartment() {
-		return department;
-	}
-	public void setDepartment(String department) {
-		this.department = department;
 	}
 	public String getLocation() {
 		return location;
@@ -138,6 +120,12 @@ public class Experience {
 	}
 	public void setEndDate(String endDate) {
 		this.endDate = endDate;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
 	}
 
 }

@@ -39,13 +39,13 @@ public class ExperienceRESTController {
 	}
 	
 	/**
-	 * Method getAllExperiencesByType is a HTTP GET request that calls the findAllExperiencesByType method in the business service
-	 * @param type - String: The type of experience
+	 * Method getAllExperiencesByCompany is a HTTP GET request that calls the findAllExperiencesByCompany method in the business service
+	 * @param company - String: The company name of a experience
 	 * @return experiences - List<Experience>: A list of experiences returned from method call
 	 */
-	@RequestMapping(value = "/all/{type}", method = RequestMethod.GET)
-	public List<Experience> getAllExperiencesByType(@PathVariable String type) {
-		List<Experience> experiences = service.findAllExperiencesByType(type);
+	@RequestMapping(value = "/all/{company}", method = RequestMethod.GET)
+	public List<Experience> getAllExperiencesByCompany(@PathVariable String company) {
+		List<Experience> experiences = service.findAllExperiencesByCompany(company);
 		return experiences;
 	}
 	
