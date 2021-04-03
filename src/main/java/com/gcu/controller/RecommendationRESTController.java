@@ -19,7 +19,7 @@ import com.gcu.model.Recommendation;
  * @Summary This class is a controller REST service that receives HTTP requests for Recommendations, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "https://hollandaucoin.com")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/recommendations")
 public class RecommendationRESTController {

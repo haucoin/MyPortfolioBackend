@@ -21,7 +21,7 @@ import com.gcu.model.Project;
  * @Summary This class is a controller REST service that receives HTTP requests for Projects, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "https://hollandaucoin.com")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/projects")
 public class ProjectRESTController {

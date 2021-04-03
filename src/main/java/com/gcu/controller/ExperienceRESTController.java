@@ -21,7 +21,7 @@ import com.gcu.model.Experience;
  * @Summary This class is a controller REST service that receives HTTP requests for Experiences, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "https://hollandaucoin.com")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/experiences")
 public class ExperienceRESTController {

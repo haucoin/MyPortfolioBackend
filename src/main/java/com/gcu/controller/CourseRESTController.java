@@ -19,7 +19,7 @@ import com.gcu.model.Course;
  * @Summary This class is a controller REST service that receives HTTP requests for Courses, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "https://hollandaucoin.com")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/courses")
 public class CourseRESTController {

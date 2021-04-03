@@ -21,7 +21,7 @@ import com.gcu.model.Skill;
  * @Summary This class is a controller REST service that receives HTTP requests for Skills, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "https://hollandaucoin.com")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/skills")
 public class SkillRESTController {
