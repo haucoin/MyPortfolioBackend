@@ -34,9 +34,6 @@ public class Recommendation {
 	// image - String: The name of an image of the author of the recommendation
 	private String image;
 	
-	// isShowing - boolean: A true or false if the recommendation is showing on the website
-	private boolean isShowing;
-	
 	// contact - List<String>: The contact information of the author of the recommendation
 	private HashMap<String, String> contact;
 	
@@ -51,7 +48,6 @@ public class Recommendation {
 		this.preview = "";
 		this.letter = "";
 		this.image = "";
-		this.isShowing = false;
 		this.contact = new HashMap<String, String>();	
 	}
 
@@ -63,17 +59,15 @@ public class Recommendation {
 	 * @param preview - String: The preview of the letter or content of the recommendation
 	 * @param letter - String: The letter or content of the recommendation
 	 * @param image - String: The name of an image of the author of the recommendation
-	 * @param isShowing - boolean: A true or false if the recommendation is showing on the website
 	 * @param contact - List<String>: The contact information of the author of the recommendation
 	 */
-	public Recommendation(String name, String position, String preview, String letter, String image, boolean isShowing, HashMap<String, String> contact) {
+	public Recommendation(String name, String position, String preview, String letter, String image, HashMap<String, String> contact) {
 		this._id = null;
 		this.name = name;
 		this.position = position;
 		this.preview = preview;
 		this.letter = letter;
 		this.image = image;
-		this.isShowing = isShowing;
 		this.contact = contact;
 	}
 
@@ -116,12 +110,6 @@ public class Recommendation {
 	}
 	public void setImage(String image) {
 		this.image = image;
-	}
-	public boolean isShowing() {
-		return isShowing;
-	}
-	public void setShowing(boolean isShowing) {
-		this.isShowing = isShowing;
 	}
 	public HashMap<String, String> getContact() {
 		return contact;

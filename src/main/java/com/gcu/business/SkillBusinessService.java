@@ -43,14 +43,4 @@ public class SkillBusinessService {
 		return skills;
 	}
 	
-	/**
-	 * Method findSkillById takes in a specific ID to return a list of skills that contain that id
-	 * @param id - String: The generated ID of a skill within the database
-	 * @return skills - Optional<Skill>: A list of skills retrieved from the database
-	 */
-	public Optional<Skill> findSkillById(String id) {
-		Optional<Skill> skills = service.findById(id);
-		return skills;
-	}
-	
 }

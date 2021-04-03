@@ -1,0 +1,159 @@
+2021-03-12T19:43:28.201-0700 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1624 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+2021-03-12T19:43:28.207-0700 INFO No active profile set, falling back to default profiles: default
+2021-03-12T19:43:28.497-0700 INFO Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-12T19:43:28.532-0700 INFO Finished Spring Data repository scanning in 32ms. Found 5 MongoDB repository interfaces.
+2021-03-12T19:43:28.728-0700 INFO Tomcat initialized with port(s): 8102 (http)
+2021-03-12T19:43:28.733-0700 INFO Initializing ProtocolHandler ["http-nio-8102"]
+2021-03-12T19:43:28.734-0700 INFO Starting service [Tomcat]
+2021-03-12T19:43:28.734-0700 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-12T19:43:28.784-0700 INFO Initializing Spring embedded WebApplicationContext
+2021-03-12T19:43:28.784-0700 INFO Root WebApplicationContext: initialization completed in 556 ms
+2021-03-12T19:43:28.847-0700 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-12T19:43:28.872-0700 INFO Opened connection [connectionId{localValue:1, serverValue:219}] to localhost:27017
+2021-03-12T19:43:28.874-0700 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1497410}
+2021-03-12T19:43:29.102-0700 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12T19:43:29.176-0700 INFO Starting ProtocolHandler ["http-nio-8102"]
+2021-03-12T19:43:29.194-0700 INFO Tomcat started on port(s): 8102 (http) with context path ''
+2021-03-12T19:43:29.200-0700 INFO Started MyPortfolioBackendApplication in 1.154 seconds (JVM running for 1.771)
+2021-03-12T19:43:29.201-0700 INFO Simple log statement
+2021-03-12T19:45:14.763-0700 INFO Application shutdown requested.
+2021-03-12T19:45:14.826-0700 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-12 19:45:21 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1662 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+2021-03-12 19:45:21 INFO No active profile set, falling back to default profiles: default
+2021-03-12 19:45:21 INFO Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-03-12 19:45:21 INFO Finished Spring Data repository scanning in 31ms. Found 5 MongoDB repository interfaces.
+2021-03-12 19:45:22 INFO Tomcat initialized with port(s): 8102 (http)
+2021-03-12 19:45:22 INFO Initializing ProtocolHandler ["http-nio-8102"]
+2021-03-12 19:45:22 INFO Starting service [Tomcat]
+2021-03-12 19:45:22 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-12 19:45:22 INFO Initializing Spring embedded WebApplicationContext
+2021-03-12 19:45:22 INFO Root WebApplicationContext: initialization completed in 541 ms
+2021-03-12 19:45:22 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-03-12 19:45:22 INFO Opened connection [connectionId{localValue:1, serverValue:220}] to localhost:27017
+2021-03-12 19:45:22 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1595867}
+2021-03-12 19:45:22 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-12 19:45:22 INFO Starting ProtocolHandler ["http-nio-8102"]
+2021-03-12 19:45:22 INFO Tomcat started on port(s): 8102 (http) with context path ''
+2021-03-12 19:45:22 INFO Started MyPortfolioBackendApplication in 1.16 seconds (JVM running for 1.74)
+2021-03-12 19:45:22 INFO Simple log statement
+2021-03-12 19:46:45 INFO Application shutdown requested.
+2021-03-12 19:46:45 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+03-12-2021 19:46:52 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1680 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+03-12-2021 19:46:52 INFO No active profile set, falling back to default profiles: default
+03-12-2021 19:46:52 INFO Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+03-12-2021 19:46:52 INFO Finished Spring Data repository scanning in 31ms. Found 5 MongoDB repository interfaces.
+03-12-2021 19:46:52 INFO Tomcat initialized with port(s): 8102 (http)
+03-12-2021 19:46:52 INFO Initializing ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:46:52 INFO Starting service [Tomcat]
+03-12-2021 19:46:52 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+03-12-2021 19:46:52 INFO Initializing Spring embedded WebApplicationContext
+03-12-2021 19:46:52 INFO Root WebApplicationContext: initialization completed in 536 ms
+03-12-2021 19:46:52 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+03-12-2021 19:46:53 INFO Opened connection [connectionId{localValue:1, serverValue:221}] to localhost:27017
+03-12-2021 19:46:53 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1977183}
+03-12-2021 19:46:53 INFO Initializing ExecutorService 'applicationTaskExecutor'
+03-12-2021 19:46:53 INFO Starting ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:46:53 INFO Tomcat started on port(s): 8102 (http) with context path ''
+03-12-2021 19:46:53 INFO Started MyPortfolioBackendApplication in 1.125 seconds (JVM running for 1.714)
+03-12-2021 19:46:53 INFO Simple log statement
+03-12-2021 19:47:30 INFO Application shutdown requested.
+03-12-2021 19:47:30 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+03-12-2021 19:47:43 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1697 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+03-12-2021 19:47:43 INFO No active profile set, falling back to default profiles: default
+03-12-2021 19:47:44 INFO Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+03-12-2021 19:47:44 INFO Finished Spring Data repository scanning in 30ms. Found 5 MongoDB repository interfaces.
+03-12-2021 19:47:44 INFO Tomcat initialized with port(s): 8102 (http)
+03-12-2021 19:47:44 INFO Initializing ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:47:44 INFO Starting service [Tomcat]
+03-12-2021 19:47:44 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+03-12-2021 19:47:44 INFO Initializing Spring embedded WebApplicationContext
+03-12-2021 19:47:44 INFO Root WebApplicationContext: initialization completed in 540 ms
+03-12-2021 19:47:44 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+03-12-2021 19:47:44 INFO Opened connection [connectionId{localValue:1, serverValue:222}] to localhost:27017
+03-12-2021 19:47:44 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1569028}
+03-12-2021 19:47:44 INFO Initializing ExecutorService 'applicationTaskExecutor'
+03-12-2021 19:47:44 INFO Starting ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:47:44 INFO Tomcat started on port(s): 8102 (http) with context path ''
+03-12-2021 19:47:44 INFO Started MyPortfolioBackendApplication in 1.135 seconds (JVM running for 1.714)
+03-12-2021 19:47:44 INFO Simple log statement
+03-12-2021 19:48:05 INFO Application shutdown requested.
+03-12-2021 19:48:05 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+03-12-2021 19:48:09 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1704 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+03-12-2021 19:48:09 INFO No active profile set, falling back to default profiles: default
+03-12-2021 19:48:10 INFO Initializing ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:48:10 INFO Starting service [Tomcat]
+03-12-2021 19:48:10 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+03-12-2021 19:48:10 INFO Initializing Spring embedded WebApplicationContext
+03-12-2021 19:48:10 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+03-12-2021 19:48:10 INFO Opened connection [connectionId{localValue:1, serverValue:223}] to localhost:27017
+03-12-2021 19:48:10 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1638611}
+03-12-2021 19:48:10 INFO Starting ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:48:10 INFO Started MyPortfolioBackendApplication in 1.146 seconds (JVM running for 1.721)
+03-12-2021 19:48:10 INFO Simple log statement
+03-12-2021 19:48:59 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-12-2021 19:48:59 INFO Opened connection [connectionId{localValue:2, serverValue:224}] to localhost:27017
+03-12-2021 19:50:19 INFO Closed connection [connectionId{localValue:2, serverValue:224}] to localhost:27017 because the pool has been closed.
+03-12-2021 19:50:24 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1756 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+03-12-2021 19:50:24 INFO No active profile set, falling back to default profiles: default
+03-12-2021 19:50:24 INFO Initializing ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:50:24 INFO Starting service [Tomcat]
+03-12-2021 19:50:24 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+03-12-2021 19:50:24 INFO Initializing Spring embedded WebApplicationContext
+03-12-2021 19:50:25 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+03-12-2021 19:50:25 INFO Opened connection [connectionId{localValue:1, serverValue:225}] to localhost:27017
+03-12-2021 19:50:25 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1434948}
+03-12-2021 19:50:25 INFO Starting ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:50:25 INFO Started MyPortfolioBackendApplication in 1.137 seconds (JVM running for 1.738)
+03-12-2021 19:50:25 INFO Simple log statement
+03-12-2021 19:51:20 TRACE No property editor [org.springframework.boot.logging.LogLevelEditor] found for type org.springframework.boot.logging.LogLevel according to 'Editor' suffix convention
+03-12-2021 19:51:20 INFO Starting MyPortfolioBackendApplication on Hollands-Macbook.local with PID 1762 (/Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend/target/classes started by hollandaucoin in /Users/hollandaucoin/workspace-spring-tool-suite/CST-452/MyPortfolioBackend)
+03-12-2021 19:51:20 DEBUG Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+03-12-2021 19:51:20 INFO No active profile set, falling back to default profiles: default
+03-12-2021 19:51:20 INFO Initializing ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:51:20 INFO Starting service [Tomcat]
+03-12-2021 19:51:20 INFO Starting Servlet engine: [Apache Tomcat/9.0.39]
+03-12-2021 19:51:20 INFO Initializing Spring embedded WebApplicationContext
+03-12-2021 19:51:20 INFO Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+03-12-2021 19:51:20 DEBUG Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+03-12-2021 19:51:20 INFO Opened connection [connectionId{localValue:1, serverValue:226}] to localhost:27017
+03-12-2021 19:51:20 DEBUG Checking status of localhost:27017
+03-12-2021 19:51:20 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 2 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:20 DEBUG Execution of command with request id 2 completed successfully in 8.66 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:20 INFO Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11570374}
+03-12-2021 19:51:20 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=11.6 ms, state=CONNECTED}]
+03-12-2021 19:51:21 INFO Starting ProtocolHandler ["http-nio-8102"]
+03-12-2021 19:51:21 INFO Started MyPortfolioBackendApplication in 1.149 seconds (JVM running for 1.741)
+03-12-2021 19:51:21 INFO Simple log statement
+03-12-2021 19:51:30 DEBUG Checking status of localhost:27017
+03-12-2021 19:51:30 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 3 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:30 DEBUG Execution of command with request id 3 completed successfully in 0.85 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:30 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=9.6 ms, state=CONNECTED}]
+03-12-2021 19:51:40 DEBUG Checking status of localhost:27017
+03-12-2021 19:51:40 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 4 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:40 DEBUG Execution of command with request id 4 completed successfully in 0.83 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:40 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=7.9 ms, state=CONNECTED}]
+03-12-2021 19:51:50 DEBUG Checking status of localhost:27017
+03-12-2021 19:51:50 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 5 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:50 DEBUG Execution of command with request id 5 completed successfully in 0.74 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:51:50 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=6.6 ms, state=CONNECTED}]
+03-12-2021 19:52:00 DEBUG Checking status of localhost:27017
+03-12-2021 19:52:00 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 6 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:00 DEBUG Execution of command with request id 6 completed successfully in 0.73 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:00 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=5.5 ms, state=CONNECTED}]
+03-12-2021 19:52:10 DEBUG Checking status of localhost:27017
+03-12-2021 19:52:10 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 7 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:10 DEBUG Execution of command with request id 7 completed successfully in 0.73 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:10 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.7 ms, state=CONNECTED}]
+03-12-2021 19:52:20 DEBUG Checking status of localhost:27017
+03-12-2021 19:52:20 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 8 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:20 DEBUG Execution of command with request id 8 completed successfully in 0.73 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:20 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=4.0 ms, state=CONNECTED}]
+03-12-2021 19:52:30 DEBUG Checking status of localhost:27017
+03-12-2021 19:52:30 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 9 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:30 DEBUG Execution of command with request id 9 completed successfully in 0.80 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:30 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.4 ms, state=CONNECTED}]
+03-12-2021 19:52:40 DEBUG Checking status of localhost:27017
+03-12-2021 19:52:40 DEBUG Sending command '{"ismaster": 1, "$db": "admin"}' with request id 10 to database admin on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:40 DEBUG Execution of command with request id 10 completed successfully in 0.64 ms on connection [connectionId{localValue:1, serverValue:226}] to server localhost:27017
+03-12-2021 19:52:40 DEBUG Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=3.0 ms, state=CONNECTED}]
+03-12-2021 19:52:44 DEBUG Closing connection connectionId{localValue:1, serverValue:226}

@@ -21,7 +21,7 @@ import com.gcu.model.Skill;
  * @Summary This class is a controller REST service that receives HTTP requests for Skills, calls the business service, and returns the data as a response
  */
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://hollandaucoin.com")
 @RestController
 @RequestMapping(value = "/skills")
 public class SkillRESTController {
@@ -47,17 +47,6 @@ public class SkillRESTController {
 	public List<Skill> getAllSkillsByType(@PathVariable String type) {
 		List<Skill> skills = service.findAllSkillsByType(type);
 		return skills;
-	}
-	
-	/**
-	 * Method getSkillById is a HTTP GET request that calls the findSkillById method in the business service
-	 * @param id - String: The generated ID of a skill within the database
-	 * @return skill - Optional<Skill>: A skill object matching the given id
-	 */
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public Optional<Skill> getSkillById(@PathVariable String id) {
-		Optional<Skill> skill = service.findSkillById(id);
-		return skill;
 	}
 	
 }
